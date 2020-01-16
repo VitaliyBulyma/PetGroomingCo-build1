@@ -10,6 +10,14 @@ namespace PetGrooming.Models
 {
     public class Owner
     {
+        [Key]
+        public string OwnerID { get; set; }
+        public string OwnerFName { get; set; }
+        public string OwnerLName { get; set; }
+        public string OwnerAddress { get; set; }
+        public string OwnerPhoneWork { get; set; }
+        public string OwnerPhoneHome { get; set; }
+
         /*
             An owner is someone who owns one or more pets
             Some things that describe an owner:

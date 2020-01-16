@@ -150,6 +150,30 @@
     <Compile Include="Migrations\202001151608501_Core_Concepts.designer.cs">
       <DependentUpon>202001151608501_Core_Concepts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001162233378_groomer.cs" />
+    <Compile Include="Migrations\202001162233378_groomer.designer.cs">
+      <DependentUpon>202001162233378_groomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001162236414_groomer_new.cs" />
+    <Compile Include="Migrations\202001162236414_groomer_new.designer.cs">
+      <DependentUpon>202001162236414_groomer_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001162312366_groombookings.cs" />
+    <Compile Include="Migrations\202001162312366_groombookings.designer.cs">
+      <DependentUpon>202001162312366_groombookings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001162314576_groomservices.cs" />
+    <Compile Include="Migrations\202001162314576_groomservices.designer.cs">
+      <DependentUpon>202001162314576_groomservices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001162317265_owners.cs" />
+    <Compile Include="Migrations\202001162317265_owners.designer.cs">
+      <DependentUpon>202001162317265_owners.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001162319053_owners_new.cs" />
+    <Compile Include="Migrations\202001162319053_owners_new.designer.cs">
+      <DependentUpon>202001162319053_owners_new.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\GroomBooking.cs" />
     <Compile Include="Models\Groomer.cs" />
@@ -229,6 +253,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001151608501_Core_Concepts.resx">
       <DependentUpon>202001151608501_Core_Concepts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001162233378_groomer.resx">
+      <DependentUpon>202001162233378_groomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001162236414_groomer_new.resx">
+      <DependentUpon>202001162236414_groomer_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001162312366_groombookings.resx">
+      <DependentUpon>202001162312366_groombookings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001162314576_groomservices.resx">
+      <DependentUpon>202001162314576_groomservices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001162317265_owners.resx">
+      <DependentUpon>202001162317265_owners.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001162319053_owners_new.resx">
+      <DependentUpon>202001162319053_owners_new.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -10,6 +10,14 @@ namespace PetGrooming.Models
 {
     public class Groomer
     {
+        [Key]
+        public int GroomerID { get; set; }
+        public string GroomerFName { get; set; }
+        public string GroomerLName { get; set; }
+        public DateTime GroomerDOB { get; set; }
+        public string GroomerPhone { get; set; }
+        public int GroomerPayrate { get; set; } /* using cents as currency  */
+
         /* 
             A groomer is someone who is employed to groom pets
             Some things that describe a groomer
