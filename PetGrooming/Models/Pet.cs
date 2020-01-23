@@ -25,9 +25,9 @@ namespace PetGrooming.Models
         [Key]
         public int PetID { get; set; }
         public string PetName { get; set; }
-        public double Weight { get; set; }
-        public string Color { get; set; }
-        public string Notes { get; set; }
+        public double PetWeight { get; set; }
+        public string PetColor { get; set; }
+        public string NotesAboutPet { get; set; }
 
 
 

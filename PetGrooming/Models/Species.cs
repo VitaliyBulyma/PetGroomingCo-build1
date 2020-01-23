@@ -15,7 +15,7 @@ namespace PetGrooming.Models
         [Key]
         public int SpeciesID { get; set; }
 
-        public string Name { get; set; }
+        public string SpeciesName { get; set; }
 
         //Representing the "Many" in (One Species to many Pets)
         public ICollection<Pet> Pets { get; set; }
