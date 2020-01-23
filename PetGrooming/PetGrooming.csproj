@@ -226,6 +226,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="ERD\" />
     <Folder Include="Views\Species\" />
     <Folder Include="Wireframes\" />
   </ItemGroup>
